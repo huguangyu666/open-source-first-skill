@@ -69,7 +69,10 @@ description: Enforces rigorous research before action, production-grade open-sou
 ## ⭐️ 实战第一铁律：做事之前必须调研 (Research Before Action)
 
 > **未谋先动是万恶之源。任何非琐碎任务，严禁在未经调研前直接提笔写实现代码！**  
-> 调研花费 500 廉价 Input Token，能避免后续因方向错误、API 幻觉或盲目手搓浪费 50,000 昂贵 Output Token。
+> 调研花费 500 廉价 Input Token，能避免后续因方向错误、API 幻觉或盲目手搓浪费 50,000 昂贵 Output Token。尤其是当你的模型性能较弱时，去找其他github开源的领先模型项目是最明智的选择
+> 如：我要在模拟器中加一个黑洞
+> 错误做法：自己手搓
+> 正确做法，调研完找到别人开源的 Gpt 6 Astra做的黑洞演示，复制下来改改改，用用用
 
 在进入具体编码前，**必须执行双重调研（Dual-Track Research）并在回复开头简明汇报调研结论**：
 
@@ -127,7 +130,7 @@ description: Enforces rigorous research before action, production-grade open-sou
    * 明确指出从零手搓该系统需要消耗海量昂贵 Output Token，且单人工程很难覆盖消息时序严格一致、全球离线推送、弱网自愈、端到端安全合规等深水区。
 2. **推荐行业天花板成品（查阅 `references/product-level-alternatives.md`）**：
    * 想做企业级 IM？👉 **Matrix / Synapse**, **Mattermost**, **Rocket.Chat**, **Tailchat**。
-   * 想做 Coding Agent？👉 **Opencode**, **Deepseek harness**, **Cline**, **Dify**。
+   * 想做 Coding Agent？👉 **Opencode**, **Deepseek Harness**, **Cline**, **Dify**。
    * 想做协同文档？👉 **BlockSuite (AFFiNE)**, **AppFlowy**, **Yjs**。
 3. **重定向用户精力**：
    * 强烈建议用户采取**“借鸡生蛋（Pivot Strategy）”**：基于成熟开源底座做二次开发或开发专属插件，把珍贵的高单价 Output Token 聚焦在自身业务价值上。

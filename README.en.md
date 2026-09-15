@@ -29,7 +29,12 @@ Whether it's poorly handwritten low-level utilities (drag-and-drop, date-time ca
 ## ⭐️ Rule #1: Research Before Action
 
 > **Premature action is the root of all software disasters. Writing implementation code without thorough upfront research is strictly prohibited.**  
-> Spending 500 cheap input tokens on research saves 50,000+ expensive output tokens wasted on wrong directions, API hallucinations, and endless rewrites.
+> Spending 500 cheap input tokens on research saves 50,000+ expensive output tokens wasted on wrong directions, API hallucinations, and endless rewrites.  
+> **Especially when the current model's standalone reasoning or graphics capability is constrained, leveraging mature open-source prior art produced by frontier models or domain experts on GitHub is the only pragmatic choice with an unfair competitive advantage.**
+
+### Concrete Contrast: Implementing a Black Hole in a Physics/Celestial Simulator
+* ❌ **Brute-Force Scratch Generation**: Attempting to derive gravitational lensing equations and raymarched fragment shaders from thin air. You burn tens of thousands of premium tokens only to end up with frame-rate collapse, a distorted flat circle, and endless debugging cycles.
+* ✅ **Harvesting Mature Prior Art**: Research GitHub / Shadertoy first to locate battle-tested implementations (e.g., frontier demos like GPT-6 Astra or Shadertoy graphics masters). Seamlessly extract the core fragment shader and mathematical metric assets, then apply clean glue code to adapt them into your current framework — fast, robust, and zero tokens wasted!
 
 Before touching a single line of code, the Agent **must conduct Dual-Track Research and report a concise summary upfront**:
 

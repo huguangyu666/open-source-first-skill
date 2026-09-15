@@ -36,9 +36,9 @@
 
 | 项目名称 | GitHub Star | 技术栈 | 正确的借力路径 |
 | :--- | :--- | :--- | :--- |
-| **OpenHands (原 OpenDevin)** | 40k+ | Python + React | 工业级开源软件开发 Agent，完整的 Docker 沙箱执行环境 |
-| **Aider** | 25k+ | Python (CLI) | 终端 Git 驱动的顶尖 Pair Programming 工具，出色的上下文映射 |
-| **Cline (原 Claude Dev)** | 30k+ | TypeScript (VSCode) | 极度活跃的自主型 VSCode 编程扩展，拥有完善的工具交互回路 |
+| **DeepSeek Harness (DSH)** | 官方生态 | Node.js + TypeScript | 高度插件化 Agent 架构，所有能力皆插件（Skills/Tools/Web） |
+| **OpenCode / OpenHands** | 40k+ | Python + React | 工业级开源软件开发 Agent，完整的执行与沙箱环境 |
+| **Cline (原 Claude Dev)** | 35k+ | TypeScript (VSCode) | 极度活跃的自主型 VSCode 编程扩展，完善的工具闭环 |
 | **Dify** | 50k+ | Python + Next.js | 视觉化企业级大模型工作流引擎，支持海量插件与知识库调度 |
 
 > **建议重定向**：不要重新造 Agent 框架！**为现有的开源 Agent 编写专属领域的 MCP 插件、开发专属工具链，或者为其编写特定行业的高质量规则库**。

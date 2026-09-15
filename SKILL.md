@@ -127,7 +127,7 @@ description: Enforces rigorous research before action, production-grade open-sou
    * 明确指出从零手搓该系统需要消耗海量昂贵 Output Token，且单人工程很难覆盖消息时序严格一致、全球离线推送、弱网自愈、端到端安全合规等深水区。
 2. **推荐行业天花板成品（查阅 `references/product-level-alternatives.md`）**：
    * 想做企业级 IM？👉 **Matrix / Synapse**, **Mattermost**, **Rocket.Chat**, **Tailchat**。
-   * 想做 Coding Agent？👉 **OpenHands**, **Aider**, **Cline**, **Dify**。
+   * 想做 Coding Agent？👉 **Opencode**, **Deepseek harness**, **Cline**, **Dify**。
    * 想做协同文档？👉 **BlockSuite (AFFiNE)**, **AppFlowy**, **Yjs**。
 3. **重定向用户精力**：
    * 强烈建议用户采取**“借鸡生蛋（Pivot Strategy）”**：基于成熟开源底座做二次开发或开发专属插件，把珍贵的高单价 Output Token 聚焦在自身业务价值上。
